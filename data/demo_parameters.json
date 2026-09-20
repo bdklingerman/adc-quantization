@@ -1,0 +1,11 @@
+{
+    "name": "raw_waveform",
+    "frequency": 2112060,
+    "amplitude": 2.5,
+    "offset": 2.5,
+    "fs": 82000000,
+    "bits": 12,
+    "length": 8192,
+    "vref": 5,
+    "waveform": "sine"
+}
