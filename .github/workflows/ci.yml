@@ -11,6 +11,6 @@ jobs:
       - uses: astral-sh/setup-uv@v6
       - run: uv sync
       - run: uv run ruff check --fix
-      - run: uv run mypy src --ignore_missing_imports
+      - run: uv run mypy src
       - run: uv build
       - run: uv run pytest
