@@ -11,6 +11,7 @@ dependencies = [
     "matplotlib>=3.11.2",
     "numpy>=2.5.3",
     "pandas>=3.0.5",
+    "pandas-stubs>=3.0.5.260914",
     "scipy>=1.18.1",
 ]
 
@@ -21,3 +22,10 @@ synthesize-signal = "adc_quantization.synthesize:main"
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=2.3.1",
+    "pytest>=9.1.1",
+    "ruff>=0.16.8",
+]
