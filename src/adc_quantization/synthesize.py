@@ -9,9 +9,10 @@ Version: September 18, 2026
 
 import argparse
 import json
-from scipy import signal
+
 import numpy
 import pandas
+from scipy import signal
 
 from . import visualize
 

@@ -6,8 +6,9 @@ Author: Brad Klingerman (bdklingerman)
 Version: September 18, 2026
 '''
 
-import numpy
 import matplotlib.pyplot
+import numpy
+
 
 def save_plot(
         y: numpy.ndarray,
